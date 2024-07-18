@@ -16,7 +16,7 @@ function addTask() {
 
         const completeButton = document.createElement('button');
         completeButton.className = 'complete';
-        completeButton.textContent = 'Complete';
+        completeButton.textContent = '✓';
         completeButton.onclick = () => {
             taskLi.classList.toggle('complete');
         };
